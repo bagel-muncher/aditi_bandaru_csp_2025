@@ -3,7 +3,7 @@ description: "Class of 2025"
 owner_name: Aditi Bandaru
 github_username: bagel-muncher
 github_repo: "aditi_bandaru_csp_2025" 
-baseurl: "/student_2025"
+baseurl: "/aditi_bandaru_csp_2025"
 future: true
 remote_theme: jekyll/minima
 minima:

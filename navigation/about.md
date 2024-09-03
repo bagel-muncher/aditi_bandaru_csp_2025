@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Creator of Student 2025
+Hi. My name is Aditi Bandaru and I am a senior at Del Norte High School.
