@@ -39,7 +39,7 @@ My journey starts here.
 
   /*background position of sprite element
   */
-  #mario {
+   #mario {
     background-position: calc({{animations[0].col}} * {{pixels}} * -1px) calc({{animations[0].row}} * {{pixels}}* -1px);
   }
 </style>
@@ -192,4 +192,32 @@ My journey starts here.
 
 </script>
 
+<html>
+  <!--List of my school year projects and stuff-->
+  <div class="pages">
+    <h3><a href="/aditi_bandaru_csp_2025/github/pages/intro">GitHub Pages Playground</a></h3>
+    <button><a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index">Mini-Project: Blog</a></button>
+  </div>
+  <br>
+  <div class="pages">
+    <h3 class="page_title">Frontend Development</h3> 
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">HTML Hacks</a>
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">Mini Exercises</a>
+  </div>
+</html>
 
+<style>
+
+  /**This is for Nighthawk Pages**/
+.pages {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 7px;
+  border-color:#008080;
+}
+
+.page-title {
+  background-color:#b8ecfe
+}
+</style>
