@@ -8,6 +8,8 @@ hide: true
 
 My journey starts here.
 
+
+
 <!-- Liquid:  statements -->
 
 <!--- Concatenation of site URL to frontmatter image  --->
