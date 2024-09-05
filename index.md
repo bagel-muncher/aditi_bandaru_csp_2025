@@ -215,9 +215,10 @@ My journey starts here.
   border-radius: 5px;
   padding: 7px;
   border-color:#008080;
+  
 }
 
 .page-title {
-  background-color:#b8ecfe
+  background-color:#b8ecfe;
 }
 </style>
