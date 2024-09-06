@@ -4,6 +4,21 @@ title: Science Fiction
 Description: no need to explain
 permalink: /sprints/sprint1/sci_fi_page/
 ---
+<style>
+    .movie_menu {
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .movie_button {
+        color: white;
+        background-color: #71BC78;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+    }
+</style>
 <html>
     <div class="movie_menu">
             <table>
@@ -14,7 +29,7 @@ permalink: /sprints/sprint1/sci_fi_page/
                     <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/sci_fi_page/index"><button class="movie_button">Sci-Fi</button></a></td>
                     <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/fantasy_page/index"><button class="movie_button">Fantasy</button></a></td>
                     <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/action_page/index"><button class="movie_button">Action</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/comedy_page/index"><button class="movie_button">Comedy</button></a></td>
+                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/animation_page/index"><button class="movie_button">Animation</button></a></td>
                 </tr>
             </table>
         </div>
