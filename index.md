@@ -223,9 +223,10 @@ hide: true
 }
 
 .page_button {
-  text-decoration-color: white;
+  color: white;
   border-radius: 5px;
   border: none;
   background-color: #ace3e3;
+  padding: 15px;
 }
 </style>

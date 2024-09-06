@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classics
-Description: Iconic Movies
-permalink: /sprints/sprint1/classics_page/
+title: Comedy
+Description: giggles
+permalink: /sprints/sprint1/comedy_page/
 ---
 <html>
     <div class="movie_menu">

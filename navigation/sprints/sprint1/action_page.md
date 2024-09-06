@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classics
-Description: Iconic Movies
-permalink: /sprints/sprint1/classics_page/
+title: Action
+Description: bruises
+permalink: /sprints/sprint1/action_page/
 ---
 <html>
     <div class="movie_menu">

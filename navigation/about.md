@@ -22,7 +22,6 @@ permalink: /about/
         flex-direction: row;
         align-items: center;
         gap: 15px;
-
     }
 
 </style>

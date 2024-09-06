@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classics
-Description: Iconic Movies
-permalink: /sprints/sprint1/classics_page/
+title: Fantasy
+Description: magic
+permalink: /sprints/sprint1/fantasy_page/
 ---
 <html>
     <div class="movie_menu">

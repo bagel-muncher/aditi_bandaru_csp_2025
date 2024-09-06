@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classics
-Description: Iconic Movies
-permalink: /sprints/sprint1/classics_page/
+title: Science Fiction
+Description: no need to explain
+permalink: /sprints/sprint1/sci_fi_page/
 ---
 <html>
     <div class="movie_menu">
