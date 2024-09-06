@@ -6,8 +6,13 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-My journey starts here.
+<strong class="journey">My journey starts here.</strong>
 
+<style>
+  .journey {
+    color: #008080;
+  }
+</style>
 
 
 <!-- Liquid:  statements -->
@@ -196,13 +201,13 @@ My journey starts here.
   <!--List of my school year projects and stuff-->
   <div class="pages">
     <h3><a href="/aditi_bandaru_csp_2025/github/pages/intro">GitHub Pages Playground</a></h3>
-    <button><a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index">Mini-Project: Blog</a></button>
+    <a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
   <br>
   <div class="pages">
     <h3 class="page_title">Frontend Development</h3> 
     <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">HTML Hacks</a>
-    <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">Mini Exercises</a>
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/sass_basics/intro" target="_blank" rel="noopener noreferrer">SASS Basics</a>
   </div>
 </html>
 
@@ -215,10 +220,12 @@ My journey starts here.
   border-radius: 5px;
   padding: 7px;
   border-color:#008080;
-  
 }
 
-.page-title {
-  background-color:#b8ecfe;
+.page_button {
+  text-decoration-color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: #ace3e3;
 }
 </style>

@@ -15,13 +15,17 @@ permalink: /sprint1_miniproject/
             <tr>
                 <td><img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_blog.png" height="60" title="GH Pages" alt=""></td>
                 <td><a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index">Home</a></td>
-                <td><a href="{{site.baseurl}}/github/pages/markdown">Classics</a></td>
+                <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/classics_page/index">Classics</a></td>
                 <td><a href="{{site.baseurl}}/github/pages/anatomy">Sci-Fi</a></td>
                 <td><a href="{{site.baseurl}}/github/pages/jekyll">Fantasy</a></td>
                 <td><a href="{{site.baseurl}}/github/pages/utterances">Action</a></td>
                 <td><a href="{{site.baseurl}}/github/pages/hacks">Comedy</a></td>
             </tr>
         </table>
+    </div>
+    <div>
+        <img src>
+        <p>Movies have been a huge part of my life. I grew up on Star Wars, Dreamworks, and Disney movies and they hold up even today. In this mini blog, I'm listing my top 5 favorite movies in 5 genres: classics, science fiction, Fantasy, Action, and Comedy.</p>
     </div>
 
 </html>
