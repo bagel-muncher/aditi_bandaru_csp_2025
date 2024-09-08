@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Action
-Description: bruises
+description: bruises
 permalink: /sprints/sprint1/action_page/
 ---
 <style>

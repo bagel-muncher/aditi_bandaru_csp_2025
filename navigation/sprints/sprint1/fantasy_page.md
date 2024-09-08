@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fantasy
-Description: magic
+description: magic
 permalink: /sprints/sprint1/fantasy_page/
 ---
 <style>

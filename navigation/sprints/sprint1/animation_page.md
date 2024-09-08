@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Animation
-Description: giggles
+description: giggles
 permalink: /sprints/sprint1/animation_page/
 ---
 <style>

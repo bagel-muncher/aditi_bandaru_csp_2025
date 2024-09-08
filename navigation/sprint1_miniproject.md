@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Movies Blog
-Description: Blog about movies
+description: Blog about movies
 permalink: /sprint1_miniproject/
 ---
 <style>

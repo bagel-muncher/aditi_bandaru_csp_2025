@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Science Fiction
-Description: no need to explain
+description: no need to explain
 permalink: /sprints/sprint1/sci_fi_page/
 ---
 <style>
