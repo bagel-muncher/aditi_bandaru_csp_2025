@@ -27,7 +27,6 @@ permalink: /sprints/sprint1/classics_page/
         display: flex;
         gap: 20px;
         align-items: center;
-
     }
 </style>
 <html>
