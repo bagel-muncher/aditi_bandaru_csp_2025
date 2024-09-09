@@ -5,15 +5,22 @@ description: Iconic Movies
 permalink: /sprints/sprint1/classics_page/
 ---
 <style>
+    body{
+        background-color: #B9D9EB;
+    }
     .movie_menu {
-        background-color: white;
+        background-color: #B9D9EB;
         display: flex;
         align-items: center;
     }
     
+   /* p, ul{
+        color: #f5f6f7;
+    }*/
+
     .movie_button {
         color: white;
-        background-color: #71BC78;
+        background-color: #5386a3;
         border: none;
         border-radius: 5px;
         padding: 10px;
@@ -22,7 +29,7 @@ permalink: /sprints/sprint1/classics_page/
         border-style: solid;
         border-width: 3px;
         border-radius: 5px;
-        border-color: #71BC78;
+        border-color: #5386a3;
         padding: 10px;
         display: flex;
         gap: 20px;
@@ -30,10 +37,11 @@ permalink: /sprints/sprint1/classics_page/
     }
 </style>
 <html>
+<body>
     <div class="movie_menu">
             <table>
                 <tr>
-                    <td><img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_blog.png" height="60" title="GH Pages" alt=""></td>
+                    <td><img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_blog1.png" height="60" title="GH Pages" alt=""></td>
                     <td><a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index"><button class="movie_button">Home</button></a></td>
                     <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/classics_page/index"><button class="movie_button">Classics</button></a></td>
                     <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/sci_fi_page/index"><button class="movie_button">Sci-Fi</button></a></td>
@@ -133,4 +141,5 @@ permalink: /sprints/sprint1/classics_page/
         </div>
     </div>
     -->
+</body>
 </html>
