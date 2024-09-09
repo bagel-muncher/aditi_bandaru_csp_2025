@@ -16,7 +16,6 @@ permalink: /about/
             <img src="{{site.baseurl}}/images/sprints/sprint1_images/bearskin.jpg" height="350" alt="bearskin guard">
         </div>
         <img src="{{site.baseurl}}/images/sprints/sprint1_images/mont_saint_michel.jpg" height="400" alt="mont saint michel castle">
-    </div>
 </html>
 
 <style>
@@ -32,3 +31,4 @@ permalink: /about/
         gap: 15px;
     }
 </style>
+
