@@ -63,15 +63,15 @@ permalink: /sprints/sprint1/action_page/
     <br>
     -->
     <div class="movie_menu">
-            <table>
+            <table class="movie_table">
                 <tr>
                     <td><img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_blog1.png" height="60" title="GH Pages" alt=""></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index"><button class="movie_button">Home</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/classics_page/index"><button class="movie_button">Classics</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/sci_fi_page/index"><button class="movie_button">Sci-Fi</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/fantasy_page/index"><button class="movie_button">Fantasy</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/action_page/index"><button class="movie_button">Action</button></a></td>
-                    <td><a href="/aditi_bandaru_csp_2025/sprints/sprint1/animation_page/index"><button class="movie_button">Animation</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="movie_button">Home</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/classics_page/index"><button class="movie_button">Classics</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/sci_fi_page/index"><button class="movie_button">Sci-Fi</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/fantasy_page/index"><button class="movie_button">Fantasy</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/action_page/index"><button class="movie_button">Action</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/animation_page/index"><button class="movie_button">Animation</button></a></td>
                 </tr>
             </table>
     </div>
