@@ -1,0 +1,13 @@
+.movie_menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.movie_button {
+    color: white;
+    background-color: #71BC78;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
