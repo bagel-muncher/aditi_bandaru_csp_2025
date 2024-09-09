@@ -200,8 +200,8 @@ hide: true
 <html>
   <!--List of my school year projects and stuff-->
   <div class="pages">
-    <h3><a href="/aditi_bandaru_csp_2025/github/pages/intro">GitHub Pages Playground</a></h3>
-    <a href="/aditi_bandaru_csp_2025/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
+    <h3><a href="{{site.baseurl}}/github/pages/intro">GitHub Pages Playground</a></h3>
+    <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
   <br>
   <div class="pages">
