@@ -5,7 +5,7 @@ github_username: bagel-muncher
 github_repo: "aditi_bandaru_csp_2025" 
 baseurl: "/aditi_bandaru_csp_2025"
 future: true
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
