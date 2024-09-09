@@ -86,6 +86,7 @@ permalink: /sprints/sprint1/classics_page/
                     <li>Music Composer: Maurice Jarre</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/dead_poets_society.jpg" alt="dead poets society pic" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -100,6 +101,7 @@ permalink: /sprints/sprint1/classics_page/
                     <li>Music Composer: Thomas Newman</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/the_shawshank_redemption.jpg" alt="shawshank redemption pic" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -114,6 +116,7 @@ permalink: /sprints/sprint1/classics_page/
                     <li>Music Composer: Jimmy Van Heusen</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/rear_window.jpg" alt="rear window pic" height="300">
     </div>
     <!-- Template
     <div>

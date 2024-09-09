@@ -5,12 +5,19 @@ description: magic
 permalink: /sprints/sprint1/fantasy_page/
 ---
 <style>
+    body {
+        background-color: #1B4D3E;
+    }
     .movie_menu {
-        background-color: white;
+        background-color: #1B4D3E;
         display: flex;
         align-items: center;
     }
     
+    p, ul {
+        color: white;
+    }
+
     .movie_button {
         color: white;
         background-color: #71BC78;
@@ -30,6 +37,7 @@ permalink: /sprints/sprint1/fantasy_page/
     }
 </style>
 <html>
+<body>
 <!-- Template
     <div class="movie_box">
         <div>
@@ -72,6 +80,7 @@ permalink: /sprints/sprint1/fantasy_page/
                     <li>Music Composer: Howard Shore</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/lotr_return_of_the_king.jpg" alt="return of the king poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -86,6 +95,7 @@ permalink: /sprints/sprint1/fantasy_page/
                     <li>Music Composer: John Williams</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/harry_potter1.jpg" alt="harry potter 1 poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -100,6 +110,7 @@ permalink: /sprints/sprint1/fantasy_page/
                     <li>Music Composer: Michael Giacchino</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/doctor_strange.jpg" alt="doctor strange" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -114,6 +125,7 @@ permalink: /sprints/sprint1/fantasy_page/
                     <li>Music Composer: Harry Gregson-Williams</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/chronicles_of_narnia.jpg" alt="chronicles of narnia poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -128,6 +140,8 @@ permalink: /sprints/sprint1/fantasy_page/
                     <li>Music Composer: James Newton Howard</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/maleficent.jpg" alt="maleficent poster" height="300">
     </div>
     <br>
+</body>
 </html>

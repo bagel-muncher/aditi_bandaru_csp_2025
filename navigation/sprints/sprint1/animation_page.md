@@ -30,6 +30,7 @@ permalink: /sprints/sprint1/animation_page/
     }
 </style>
 <html>
+<body>
 <!-- Template
     <div class="movie_box">
         <div>
@@ -72,6 +73,7 @@ permalink: /sprints/sprint1/animation_page/
                     <li>Music Composer: John Powell</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/httyd.jpg" alt="httyd poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -86,6 +88,7 @@ permalink: /sprints/sprint1/animation_page/
                     <li>Music Composer: Joe Hisaishi</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/howl's_moving_castle.jpg" alt="howl's moving castle poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -100,6 +103,7 @@ permalink: /sprints/sprint1/animation_page/
                     <li>Music Composer: Daniel Pemberton</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/into_the_spiderverse.jpg" alt="into the spider verse poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -114,6 +118,7 @@ permalink: /sprints/sprint1/animation_page/
                     <li>Music Composer: Christophe Beck</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/nimona.jpg" alt="nimona poster" height="300">
     </div>
     <br>
     <div class="movie_box">
@@ -128,6 +133,8 @@ permalink: /sprints/sprint1/animation_page/
                     <li>Music Composer: Thomas Newman</li>
                 </ul>
         </div>
+        <img src="{{site.baseurl}}/images/sprints/sprint1_images/movie_posters/finding_nemo.webp" alt="finding nemo poster" height="300">
     </div>
     <br>
+</body>
 </html>
