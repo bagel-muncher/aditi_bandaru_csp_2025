@@ -49,7 +49,7 @@ p {
     <br>
     <div class="blog_intro">
         <div>
-            <p>Movies have been a huge part of my life. I grew up on Star Wars, Dreamworks, and Disney movies and they hold up even today. In this mini blog, I'm listing my top 5 favorite movies in 5 genres: classics, science fiction, Fantasy, Action, and Comedy.</p>
+            <p>Movies have been a huge part of my life. I grew up on Star Wars, Dreamworks, and Disney movies and they hold up even today. In this mini blog, I'm listing my top 5 favorite movies in 5 genres: Classics, Science Fiction, Fantasy, Action, and Animation.</p>
         </div>
         <img src="{{site.baseurl}}/images/sprints/sprint1_images/mainpage_image.jpg" alt="oppenheimer" height="350">
     </div>

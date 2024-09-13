@@ -201,13 +201,17 @@ hide: true
   <!--List of my school year projects and stuff-->
   <div class="pages">
     <h3><a href="{{site.baseurl}}/github/pages/intro">GitHub Pages Playground</a></h3>
+    <p>This is a little blog about my favorite movies</p>
+    <br>
     <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
   <br>
-  <div class="pages">
-    <h3 class="page_title">Frontend Development</h3> 
+  <br>
+  <div class="pages"> 
     <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">HTML Hacks</a>
     <a href="https://nighthawkcoders.github.io/portfolio_2025/sass_basics/intro" target="_blank" rel="noopener noreferrer">SASS Basics</a>
+    <h3 class="page_title">Frontend Development</h3>
+    <p>These links go to the nighthawk pages that teach the basics of HTML and SASS</p>
   </div>
 </html>
 
@@ -218,7 +222,7 @@ hide: true
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
-  padding: 7px;
+  padding: 15px;
   border-color:#008080;
 }
 
