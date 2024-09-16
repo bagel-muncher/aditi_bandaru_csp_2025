@@ -206,12 +206,16 @@ hide: true
     <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
   <br>
-  <br>
   <div class="pages"> 
     <a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground" target="_blank" rel="noopener noreferrer">HTML Hacks</a>
     <a href="https://nighthawkcoders.github.io/portfolio_2025/sass_basics/intro" target="_blank" rel="noopener noreferrer">SASS Basics</a>
     <h3 class="page_title">Frontend Development</h3>
     <p>These links go to the nighthawk pages that teach the basics of HTML and SASS</p>
+  </div>
+  <br>
+  <div class="pages">
+    <h3 clss="page_title">Javascript Playground</h3>
+    <a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/homepage/index"><button class="page_button">Playground</button></a>
   </div>
 </html>
 
