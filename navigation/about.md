@@ -16,6 +16,15 @@ permalink: /about/
             <img src="{{site.baseurl}}/images/sprints/sprint1_images/bearskin.jpg" height="350" alt="bearskin guard">
         </div>
         <img src="{{site.baseurl}}/images/sprints/sprint1_images/mont_saint_michel.jpg" height="400" alt="mont saint michel castle">
+    </div>
+    <script src="https://utteranc.es/client.js"
+        repo="bagel-muncher/aditi_bandaru_csp_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
 </html>
 
 <style>

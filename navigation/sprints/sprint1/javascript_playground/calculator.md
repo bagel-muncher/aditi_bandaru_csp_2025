@@ -6,7 +6,7 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
 ---
 <style>
     /*Fix game buttons problems*/
-    #game_button {
+    .game_button {
         color: white;
         background-color: #71BC78;
         border: none;
@@ -46,7 +46,7 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
         grid-gap: 10px;
     }
 
-    button {
+    .n {
         width: 80px;
         height: 80px;
         font-size: 1.5em;
@@ -67,8 +67,9 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
         <table>
             <tr>
                 <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/homepage/index"><img src="{{site.baseurl}}/images/sprints/sprint1_images/javascript_logo.jpg" height="60" title="GH Pages" alt="javascript_logo"></a></td>
-                <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/cookie_clicker/index"><button id="game_button">Cookie Clicker</button></a></td>
-                <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/calculator/index"><button id="game_button">Calculator</button></a></td>
+                <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/cookie_clicker/index"><button class="game_button">Cookie Clicker</button></a></td>
+                <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/calculator/index"><button class="game_button">Calculator</button></a></td>
+                <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/tic_tac_toe/index"><button class="game_button">Tic Tac Toe</button></a></td>
             </tr>
         </table>
     </div>
@@ -78,25 +79,25 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
     <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="buttons">
-            <button onclick="clearDisplay()">A/C</button>
-            <button onclick="squareRoot()">√</button>
-            <button onclick="square()">x²</button>
-            <button onclick="insertOperator('/')">÷</button>
-            <button onclick="insertNumber(7)">7</button>
-            <button onclick="insertNumber(8)">8</button>
-            <button onclick="insertNumber(9)">9</button>
-            <button onclick="insertOperator('*')">×</button>
-            <button onclick="insertNumber(4)">4</button>
-            <button onclick="insertNumber(5)">5</button>
-            <button onclick="insertNumber(6)">6</button>
-            <button onclick="insertOperator('-')">−</button>
-            <button onclick="insertNumber(1)">1</button>
-            <button onclick="insertNumber(2)">2</button>
-            <button onclick="insertNumber(3)">3</button>
-            <button onclick="insertOperator('+')">+</button>
-            <button onclick="insertNumber(0)">0</button>
-            <button onclick="insertOperator('.')">.</button>
-            <button onclick="calculate()">=</button>
+            <button class="n" onclick="clearDisplay()">A/C</button>
+            <button class="n" onclick="squareRoot()">√</button>
+            <button class="n" onclick="square()">x²</button>
+            <button class="n" onclick="insertOperator('/')">÷</button>
+            <button class="n" onclick="insertNumber(7)">7</button>
+            <button class="n" onclick="insertNumber(8)">8</button>
+            <button class="n" onclick="insertNumber(9)">9</button>
+            <button class="n" onclick="insertOperator('*')">×</button>
+            <button class="n" onclick="insertNumber(4)">4</button>
+            <button class="n" onclick="insertNumber(5)">5</button>
+            <button class="n" onclick="insertNumber(6)">6</button>
+            <button class="n" onclick="insertOperator('-')">−</button>
+            <button class="n" onclick="insertNumber(1)">1</button>
+            <button class="n" onclick="insertNumber(2)">2</button>
+            <button class="n" onclick="insertNumber(3)">3</button>
+            <button class="n" onclick="insertOperator('+')">+</button>
+            <button class="n" onclick="insertNumber(0)">0</button>
+            <button class="n" onclick="insertOperator('.')">.</button>
+            <button class="n" onclick="calculate()">=</button>
         </div>
     </div>
     </div>
