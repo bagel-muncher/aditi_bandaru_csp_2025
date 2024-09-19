@@ -22,9 +22,18 @@ permalink: /sprints/sprint1/javascripts_playground/homepage/
                     <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/cookie_clicker/index"><button
                     class="game_button">Cookie Clicker</button></a></td>
                     <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/calculator/index"><button class="game_button">Calculator</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/snake/index"><button class="game_button">Snake</button></a></td>
                 </tr>
             </table>
         </div>
         <br>
+        <script src="https://utteranc.es/client.js"
+            repo="bagel-muncher / aditi_bandaru_csp_2025"
+            issue-term="title"
+            label="blogpost-comment"
+            theme="photon-dark"
+            crossorigin="anonymous"
+            async>
+        </script>
     </body>
 </html>
