@@ -24,6 +24,7 @@ permalink: /sprints/sprint1/javascripts_playground/homepage/
                     <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/calculator/index"><button class="game_button">Calculator</button></a></td>
                     <!--<td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/snake/index"><button class="game_button">Snake</button></a></td>-->
                     <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/tic_tac_toe/index"><button class="game_button">Tic Tac Toe</button></a></td>
+                    <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/api_music/index"><button class="game_button">API</button></a></td>
                 </tr>
             </table>
         </div>
