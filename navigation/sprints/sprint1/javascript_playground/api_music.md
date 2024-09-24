@@ -9,7 +9,7 @@ toc: true
 comments: false
 ---
 <style>
-    * {
+    body {
         background-color: black;
     }
     .game_button {
@@ -26,7 +26,7 @@ comments: false
             <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/cookie_clicker/index"><button
             class="game_button">Cookie Clicker</button></a></td>
             <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/calculator/index"><button class="game_button">Calculator</button></a></td>
-            <!--<td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/snake/index"><button class="game_button">Snake</button></a></td>-->
+            <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/snake/index"><button class="game_button">Snake</button></a></td>
             <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/tic_tac_toe/index"><button class="game_button">Tic Tac Toe</button></a></td>
             <td><a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/api_music/index"><button class="game_button">API</button></a></td>
         </tr>
@@ -35,7 +35,7 @@ comments: false
 <!-- Input box and button for filter -->
 <div>
   <input type="text" id="filterInput" placeholder="Enter iTunes filter">
-  <button onclick="fetchData()">Search</button>
+  <button class="search" onclick="fetchData()">Search</button>
 </div>
 
 <!-- HTML table fragment for page -->
