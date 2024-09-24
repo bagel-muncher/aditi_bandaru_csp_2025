@@ -55,10 +55,29 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
         border-radius: 10px;
         transition: background-color 0.2s;
     }
+    .n:hover {
+        background-color: #b1b9bf;
+    }
 
     button:active {
         background-color: #ccc;
-    }   
+    }
+    
+    .history {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+    }
+
+    ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    }
 </style>
 
 <html>
@@ -98,8 +117,13 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
             <button class="n" onclick="insertNumber(0)">0</button>
             <button class="n" onclick="insertOperator('.')">.</button>
             <button class="n" onclick="calculate()">=</button>
+            <button class="n" onclick="showHistory()">🕑</button>
         </div>
     </div>
+        <div class="history" id="historyDisplay">
+            <h3>History</h3>
+            <ul id="historyList"></ul>
+        </div>
     </div>
 <script>
     // Insert a number or operator into the display
@@ -119,7 +143,12 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
         let expression = document.getElementById('display').value;
         if (expression) {
             try {
+                //let result = eval(expression);
+                //document.getElementById('display').value = result;
                 document.getElementById('display').value = eval(expression);
+                //
+                //Store the calculation in the history
+                //addToHistory(expression + ' = ' + result);
             } catch (e) {
                 document.getElementById('display').value = 'Error';
             }
@@ -129,7 +158,11 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
     function squareRoot() {
         let number = document.getElementById('display').value;
         if (number) {
+            //let result = Math.sqrt(number);
+            //document.getElementById('display').value = result;
             document.getElementById('display').value = Math.sqrt(number);
+            // Store in history
+            //addToHistory('√' + number + ' = ' + result);
         }
     }
     // Calculate square of a number
@@ -137,6 +170,37 @@ permalink: /sprints/sprint1/javascripts_playground/calculator/
         let number = document.getElementById('display').value;
         if (number) {
             document.getElementById('display').value = Math.pow(number, 2);
+            //let result = Math.pow(number, 2);
+            //document.getElementById('display').value = result;
+            // Store in history
+            //addToHistory(number + '² = ' + result);
+        }
+    }
+    // Add the equation to history and maintain only 5 entries
+    function addToHistory(entry) {
+        if (history.length === 5) {
+            history.shift(); // Remove the oldest entry if there are 5
+        }
+        history.push(entry);
+        updateHistoryDisplay();
+    }
+    // Update the history display
+    function updateHistoryDisplay() {
+        let historyList = document.getElementById('historyList');
+        historyList.innerHTML = '';
+        for (let i = 0; i < history.length; i++) {
+            let listItem = document.createElement('li');
+            listItem.textContent = history[i];
+            historyList.appendChild(listItem);
+        }
+    }
+    // Show or hide the history display
+    function showHistory() {
+        let historyDiv = document.getElementById('historyDisplay');
+        if (historyDiv.style.display === 'none' || historyDiv.style.display === '') {
+        historyDiv.style.display = 'block';
+        } else {
+            historyDiv.style.display = 'none';
         }
     }
 </script>

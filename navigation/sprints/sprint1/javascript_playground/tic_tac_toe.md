@@ -9,6 +9,10 @@ permalink: /sprints/sprint1/javascripts_playground/tic_tac_toe/
         font-family: 'Poppins', sans-serif;
         color: #000000;
     }
+    .container {
+        background-color: #d1fbff;
+        padding: 20px;
+    }
     .game_button {
         color: white;
         background-color: #71BC78;
@@ -69,6 +73,7 @@ permalink: /sprints/sprint1/javascripts_playground/tic_tac_toe/
         </table>
     </div>
     <br>
+    <div class="container">
     <div id="board">
         <div class="square" id="square0"></div>
         <div class="square" id="square1"></div>
@@ -82,6 +87,7 @@ permalink: /sprints/sprint1/javascripts_playground/tic_tac_toe/
     </div>
     <div id="endGame">
         <input type="button" value="Restart" id="restartButton" onclick="restartButton()"/>
+    </div>
     </div>
 <!--javascript-->
 <script>
