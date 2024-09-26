@@ -8,6 +8,14 @@ comments: false
 ---
 <style>
     body{
+        background-color: black;
+    }
+    .game_button {
+        color: white;
+        background-color: #71BC78;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
     }
     .wrap{
         margin-left: auto;
@@ -27,6 +35,7 @@ comments: false
     /* All screens style */
     #gameover p, #setting p, #menu p{
         font-size: 20px;
+        color: white;
     }
 
     #gameover a, #setting a, #menu a{
@@ -67,6 +76,11 @@ comments: false
         background-color: #FFF;
         color: #000;
     }
+    .fs-4 {
+        color: white;
+        background-color: #54b6de;
+        text-align: center;
+    }
 </style>
 <!--html-->
 <html>
@@ -84,6 +98,7 @@ comments: false
                 </tr>
             </table>
         </div>
+        <br>
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <p class="fs-4">Snake score: <span id="score_value">0</span></p>

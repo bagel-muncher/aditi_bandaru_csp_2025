@@ -2,7 +2,7 @@
 comments: false
 layout: post
 title: Javascript Itunes API
-description: API's are a primary source for obtaining data from the internet.  There is information in API's for almost any interest.
+description: music
 categories: [Javascript]
 permalink: /sprints/sprint1/javascripts_playground/api_music/
 toc: true
