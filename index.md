@@ -200,10 +200,13 @@ hide: true
 <html>
   <!--List of my school year projects and stuff-->
   <div class="pages">
-    <h3><a href="{{site.baseurl}}/github/pages/intro">GitHub Pages Playground</a></h3>
-    <p>This is a little blog about my favorite movies</p>
-    <br>
-    <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
+    <h3 clss="page_title">Sprint 2: Big Ideas 3</h3>
+    <a href="{{site.baseurl}}/sprints/sprint2/sprint2_homepage/index"><button class="page_button">Big Ideas 3</button></a>
+  </div>
+  <br>
+  <div class="pages">
+    <h3 clss="page_title">Javascript Playground</h3>
+    <a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/homepage/index"><button class="page_button">Playground</button></a>
   </div>
   <br>
   <div class="pages"> 
@@ -214,9 +217,12 @@ hide: true
   </div>
   <br>
   <div class="pages">
-    <h3 clss="page_title">Javascript Playground</h3>
-    <a href="{{site.baseurl}}/sprints/sprint1/javascripts_playground/homepage/index"><button class="page_button">Playground</button></a>
+    <h3><a href="{{site.baseurl}}/github/pages/intro">GitHub Pages Playground</a></h3>
+    <p>This is a little blog about my favorite movies</p>
+    <br>
+    <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
+  <br>
 </html>
 
 <style>
