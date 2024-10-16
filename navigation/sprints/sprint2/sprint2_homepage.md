@@ -60,8 +60,31 @@ menu: nav/big_ideas_3_nav
         <br>
         <br>
         <div>
+        <!--Blog - in association with Big Ideas and Teaching, something that shows how you will be prepared for CB and PBL (ie organized accomplishments)
+        Memory - something that will helps Teacher or others recall your individual presentation and contribution (ie a highlight)
+        Relevancy - something impactful you learned from another lesson, note source, and try to use relevancy checklist in language (ie a learning)
+        Beyond Perfunctory - something that shows me that this Sprint on Big Ideas is distinctly yours (ie personal growth or accomplishment)-->
             <div class="team_box">
-                <h3>Team: 3.2 Lesson</h3>
+                <h3>Contributions to the 3.2 Lesson</h3>
+                <ul>
+                    <li>Lists: Sesame Street and square brackets []</li>
+                    <li>Tuple: Teletubbies and parantheses ()</li>
+                    <li>Sets: Backyardigans and curly brackets/braces {}</li>
+                </ul>
+            </div>
+            <br>
+            <div class="team_box">
+                <h3>Relevancy</h3>
+                <ul>
+                    <li><strong>3.1 and 3.4: </strong>I appreciated how they taught string concatenation.</li>
+                    <li><strong>3.3 and 3.5: </strong>The way the math relationships and expressions and booleans were taught were very easy to understand. I could use the booleans in conditionals. I learned about import math when wanting to use the full value of "pi" when making the formula of a circle. I also learned about</li>
+                    <li><strong>3.6 and 3.7: </strong>The way the lesson was structured and taught made it easy to understand how conditionals worked. I was able to apply what I learned to the assignments of other lessons</li>
+                    <li><strong>3.8: </strong> I learned about loops. Looping the conditionals made it very convienient for running the code and not having to restart the code after one run.</li>
+                </ul>
+            </div>
+            <div class="team_box">
+                <h3>Beyond Perfunctory</h3>
+                <p>For my homework, I merged what I learned from previous lessons with what I learned in the current lesson when doing the popcorn hacks and homework. I wanted to make sure that I understood the basics of Python and could apply my basic knowledge to the homework. When I needed help, I read relevant articles on w3schools or asked questions on Google.</p>
             </div>
         </div>
         <script src="https://utteranc.es/client.js"
