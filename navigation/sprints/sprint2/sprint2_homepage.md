@@ -71,6 +71,14 @@ menu: nav/big_ideas_3_nav
                     <li>Tuple: Teletubbies and parantheses ()</li>
                     <li>Sets: Backyardigans and curly brackets/braces {}</li>
                 </ul>
+                <br>
+                <p>Teamwork</p>
+                <ul>
+                    <li>Coordination</li>
+                    <li>Communication</li>
+                    <li>Solving issues like sharing files and then merging them. Kept trying until we figured it out.</li>
+                    <li>Getting Creative</li>
+                </ul>
             </div>
             <br>
             <div class="team_box">
@@ -82,9 +90,13 @@ menu: nav/big_ideas_3_nav
                     <li><strong>3.8: </strong> I learned about loops. Looping the conditionals made it very convienient for running the code and not having to restart the code after one run.</li>
                 </ul>
             </div>
+            <br>
             <div class="team_box">
                 <h3>Beyond Perfunctory</h3>
-                <p>For my homework, I merged what I learned from previous lessons with what I learned in the current lesson when doing the popcorn hacks and homework. I wanted to make sure that I understood the basics of Python and could apply my basic knowledge to the homework. When I needed help, I read relevant articles on w3schools or asked questions on Google.</p>
+                <p>For my homework, I merged what I learned from previous lessons with what 
+                I learned in the current lesson when doing the popcorn hacks and homework. 
+                I wanted to make sure that I understood the basics of Python and could apply my basic knowledge to the homework. 
+                When I needed help, I read relevant articles on w3schools or asked questions on Google.</p>
             </div>
         </div>
         <script src="https://utteranc.es/client.js"
