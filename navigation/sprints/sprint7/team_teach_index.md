@@ -39,8 +39,8 @@ menu: nav/big_ideas_3_nav
                         class="lesson_button">Team Teach Home</button></a></td>
                 <td><a href="{{site.baseurl}}/_notebooks/Foundation/trimester_3/sprint7-team-teaches/2025-03-20-beneficial-harmful-effects_IPYNB_2_"><button
                         class="lesson_button">Benefits and Harmful Effects</button></a></td>
-                <td><a href="{{site.baseurl}}/sprint_1/2024-09-24-big-ideas-32-lists-tuples-sets_IPYNB_2_"><button
-                        class="lesson_button">3.2</button></a></td>
+                <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-03-21-digital-divide_IPYNB_2_"><button
+                        class="lesson_button">Digital Divide</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-11-33-35-hacks_IPYNB_2_"><button
                         class="lesson_button">3.3</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-07-3-4-hacks_IPYNB_2_"><button
