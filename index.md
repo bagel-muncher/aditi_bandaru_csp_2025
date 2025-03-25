@@ -201,8 +201,9 @@ hide: true
   <!--List of my school year projects and stuff-->
   <div class="pages">
     <h3 class="page_title">AP Exam Team Teaches</h3>
-    <a href="{{site.baseurl}}/navigation/sprints/sprint3/login"><button class="page_button">Login</button></a>
+    <a href="{{site.baseurl}}/sprints/sprint7/team_teach_index"><button class="page_button">CW and HW for Lessons</button></a>
   </div>
+  <br>
   <div class="pages">
     <h3 clss="page_title">Sprint 2: Big Ideas 3</h3>
     <a href="{{site.baseurl}}/sprints/sprint2/sprint2_homepage/index"><button class="page_button">Big Ideas 3</button></a>
