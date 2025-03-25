@@ -228,10 +228,6 @@ hide: true
     <a href="{{site.baseurl}}/sprint1_miniproject/index"><button class="page_button">Mini-Project: Blog</button></a>
   </div>
   <br>
-  <div class="pages">
-    <h3 class="page_title">Sprint 3 Trial</h3>
-    <a href="{{site.baseurl}}/navigation/sprints/sprint3/login"><button class="page_button">Login</button></a>
-  </div>
 </html>
 
 <style>
