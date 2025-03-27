@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Big Ideas 3
-description: Learning the Basics of Python
-permalink: /sprints/sprint2/sprint2_homepage/
-menu: nav/big_ideas_3_nav
+title: Big Ideas 2 and 5 Team Teaches
+description: Homepage for all the lessons in preparation for the AP CSP Exam
+permalink: /sprints/sprint7/team_teach_index
+menu:
 ---
 <style>
     .lesson_button {
@@ -41,8 +41,8 @@ menu: nav/big_ideas_3_nav
                         class="lesson_button">Benefits and Harmful Effects</button></a></td>
                 <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-03-21-digital-divide_IPYNB_2_"><button
                         class="lesson_button">Digital Divide</button></a></td>
-                <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-11-33-35-hacks_IPYNB_2_"><button
-                        class="lesson_button">3.3</button></a></td>
+                <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-03-25-computing-bias_IPYNB_2_"><button
+                        class="lesson_button">Computing Bias</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-07-3-4-hacks_IPYNB_2_"><button
                         class="lesson_button">3.4</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-11-33-35-hacks_IPYNB_2_"><button
