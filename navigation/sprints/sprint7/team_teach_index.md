@@ -43,10 +43,10 @@ menu:
                         class="lesson_button">Digital Divide</button></a></td>
                 <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-03-25-computing-bias_IPYNB_2_"><button
                         class="lesson_button">Computing Bias</button></a></td>
-                <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-07-3-4-hacks_IPYNB_2_"><button
-                        class="lesson_button">3.4</button></a></td>
-                <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-11-33-35-hacks_IPYNB_2_"><button
-                        class="lesson_button">3.5</button></a></td>
+                <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-03-31-legal-ethical-concerns_IPYNB_2_"><button
+                        class="lesson_button">Legal/Ethical Concerns</button></a></td>
+                <td><a href="{{site.baseurl}}/_posts/Foundation/trimester_3/sprint7-team-teaches/2025-04-01-safe-computing_IPYNB_2_"><button
+                        class="lesson_button">Safe Computing</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-07-36-37-hacks_IPYNB_2_ "><button
                         class="lesson_button">3.6 & 3.7</button></a></td>
                 <td><a href="{{site.baseurl}}/sprint_2/lesson_homework/2024-10-10-3-8-hacks_IPYNB_2_"><button
